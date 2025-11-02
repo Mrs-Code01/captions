@@ -35,7 +35,7 @@ Number each caption.
     const response = await cohere.chat({
       model: "command-r-plus-08-2024",
       message,
-      max_tokens: 100,
+      max_tokens: 200,
       temperature: 0.8
     });
 
